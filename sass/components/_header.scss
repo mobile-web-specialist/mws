@@ -1,0 +1,24 @@
+.main-header {
+    width: 100%;
+    height: 10rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    .container  {
+        max-width: 119rem;
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+        .logo {
+            display: inline-block;
+            vertical-align: top;
+            img {
+                margin-top: 3rem;
+                width: 200px;
+            }
+        }
+    }
+}

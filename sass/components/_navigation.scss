@@ -1,0 +1,15 @@
+nav {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3rem;
+    margin-left: 24rem;
+    .nav {
+        &__item {
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 2.5rem;
+            font-size: 2.2rem;
+            color: $color-grey;
+        }
+    }
+}

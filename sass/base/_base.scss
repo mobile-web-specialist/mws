@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body {
+    box-sizing: border-box;
+    font-weight: 400;
+    line-height: 1.7;
+    font-family: $default-font;
+    height: 100%;
+    margin-top: 10rem; // for fixed navigation
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

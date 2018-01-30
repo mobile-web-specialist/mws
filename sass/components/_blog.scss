@@ -1,0 +1,45 @@
+.blog {
+    max-width: 70rem;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 4rem;
+
+    &__heading-1 {
+        font-size: 2.7rem;
+        line-height: 6rem;
+    }
+
+    &__heading-2 {
+        font-size: 2.5rem;
+        line-height: 5rem;
+    }
+
+    &__heading-3 {
+        font-size: 2.3rem;
+        line-height: 4rem;
+    }
+    
+    &__heading-4 {
+        font-size: 2.1rem;
+        line-height: 4rem;
+    }
+    
+    &__paragraph {
+        font-size: 1.6rem;
+        &:last-of-type {
+            padding-bottom: 2rem;
+        }
+    }
+    &__image {
+        padding: 2rem 0;
+    }
+
+    &:after {
+        content: "";
+        display: block;
+        height: 10rem;
+      }
+}
+
